@@ -1,0 +1,36 @@
+:root{
+    --theme-main-color: #47008a;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 5px;
+}
+.popup{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 5px;
+    border: var(--theme-main-color) 1px solid;
+    padding: 10px;
+    min-width: 80vw !important;
+    min-height: 80vh !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.popup .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.popup input[type="radio"]{
+    color: var(--theme-main-color) !important;
+}

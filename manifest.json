@@ -1,0 +1,14 @@
+{
+	"name": "mintab",
+	"version": "0.1.0",
+	"description": "Minimalistic chrome new tab.",
+	"manifest_version": 3,
+	"author": "xyble",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"options_page": "options.html",
+	"chrome_url_overrides": {
+		"newtab": "newpage.html"
+	}
+}
